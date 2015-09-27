@@ -3,8 +3,6 @@ In case Facebook has scraped your site in a state where meta tags were broken, t
 
 ##Steps
 
-**bundle install**
-
 **ruby fb_call.rb urls.csv 0 100** -- Will be refactoring this soon to make it cleaner
 
 *urls.csv* - File name of all the URLs. One URL per line
