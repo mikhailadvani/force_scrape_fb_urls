@@ -1,5 +1,3 @@
-require 'pry'
-
 urls = File.readlines(ARGV[0])
 
 start_index = ARGV[1].to_i
