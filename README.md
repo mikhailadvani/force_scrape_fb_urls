@@ -11,6 +11,17 @@ In case Facebook has scraped your site in a state where meta tags were broken, t
 
 *100* - Batch size. This is used to throttle the requests to the Graph API
 
+##Setting up the access token
+Login to Facebook with your personal ID
+
+Go to https://developers.facebook.com/tools/explorer/
+
+Generate a token
+
+Set this token as an environment variable **ACCESS_TOKEN**
+
+This token will expire every 1 hour. Reset the above token every time it expires. Continuation of the job from where it terminated in the previous run is possible using the start index in the script 
+
 ##Output
 
 Output will be a CSV of the form
